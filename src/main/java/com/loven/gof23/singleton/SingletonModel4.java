@@ -5,11 +5,11 @@ import org.slf4j.LoggerFactory;
 
 /**
  * 基于enum的特性构建的优雅单例模式
- * 
+ *
  * <pre>
  * 测试论证{@see com.loven.gof23.singleton.test.TestSingletonModel#testSingleton}
  * </pre>
- * 
+ *
  * @author lw 2019-04-22 11:22 上午
  */
 public class SingletonModel4 {
@@ -21,6 +21,7 @@ public class SingletonModel4 {
     }
 
     private static enum Single {
+
         INSTANCE;
 
         private SingletonModel4 instance;

@@ -27,7 +27,7 @@ public class SingletonModel3 {
         private static Logger          LOGGER   = LoggerFactory.getLogger(SingletonModel3Holder.class);
 
         static {
-            LOGGER.info("TEST LOADING...");
+            LOGGER.info("[{}] TEST LOADING...", SingletonModel3Holder.class);
         }
 
         private static SingletonModel3 instance = new SingletonModel3();
